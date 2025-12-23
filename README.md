@@ -94,7 +94,7 @@ Enable with `?cheats=1`, press **F3** to open menu:
 
 ## License
 
-Based on open-source re3/reVC project. Not affiliated with Rockstar Games.
+Do what you want. Not affiliated with Rockstar Games.
 
 ---
 
