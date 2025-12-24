@@ -7,19 +7,37 @@ Web-based port of GTA: Vice City running in browser via WebAssembly.
 - Python 3.8+
 - Dependencies from `requirements.txt`
 
-## Installation (if you want to use a public hosting go to PHP)
 
+## Installation
+=======
+
+## Setup & Running
+
+### Option 1: Using Docker (Recommended)
+The easiest way to get started is using Docker Compose:
+
+```bash
+docker compose up -d --build
+```
+
+### Option 2: Local Installation
+
+1. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Running
-
+2. Start the server:
 ```bash
 python server.py
 ```
 
 Server starts at `http://localhost:8000`
+
+## OPtion 3; Shared Hosting on PHP (NO INSTALL)
+
+If you want to run the game from a hosted environment with `PHP 8.0` or above, just copy the contents of this repo to your desired hosting
+By default the `index.php` and `.htaccess` will get the job done. 
 
 ## URL Parameters
 
@@ -28,9 +46,6 @@ Server starts at `http://localhost:8000`
 | `lang` | `en`, `ru` | Game language |
 | `cheats` | `1` | Enable cheat menu (F3) |
 
-## PHP (NO INSTALL)
-If you want to run the game from a hosted environment with `PHP 8.0` or above, just copy the contents of this repo to your desired hosting
-By default the `index.php` and `.htaccess` will get the job done. 
 
 **Examples:**
 - `http://localhost:8000/?lang=ru` — Russian version
@@ -100,7 +115,7 @@ Enable with `?cheats=1`, press **F3** to open menu:
 
 ## License
 
-Based on open-source re3/reVC project. Not affiliated with Rockstar Games.
+Do what you want. Not affiliated with Rockstar Games.
 
 ---
 
