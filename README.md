@@ -219,7 +219,7 @@ Enable with `?cheats=1`, press **F3** to open menu:
 
 ## License
 
-Do what you want. Not affiliated with Rockstar Games.
+MIT. Do what you want (but credit the port authors and me). Not affiliated with Rockstar Games.
 
 ---
 
