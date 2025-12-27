@@ -132,6 +132,7 @@ python server.py --port 3000 --custom_saves --login admin --password secret123 -
 | `cheats` | `1` | Enable cheat menu (F3) |
 | `request_original_game` | `1` | Request original game files before play |
 | `fullscreen` | `0` | Disable auto-fullscreen |
+| `max_fps` | `1-240` | Limit frame rate (e.g., `60` for 60 FPS) |
 
 
 **Examples:**
